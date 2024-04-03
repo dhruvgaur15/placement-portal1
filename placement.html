@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Placements</title>
+    <link rel="stylesheet" href="css/placement.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Company Placements Details</h1>
+      <div class="sort-options">
+        <label for="sort">Sort by:</label>
+        <select id="sort">
+          <option value="name">Name</option>
+          <option value="year">Year</option>
+        </select>
+      </div>
+      <table id="company-table" class="company-table">
+        <thead>
+          <tr>
+            <th>Serial Number</th>
+            <th>Name of Company</th>
+            <th>Date of Placement Drive</th>
+            <th>Number of Students Placed</th>
+          </tr>
+        </thead>
+        <tbody id="company-body">
+          <!-- Companies will be dynamically added here -->
+        </tbody>
+      </table>
+    </div>
+    <script src="js/placement.js"></script>
+  </body>
+</html>
